@@ -1,0 +1,6 @@
+{
+	"name": "script-escape",
+	"version": "0.1.0",
+	"description": "Safely escape values for use in `<script>` tags.",
+	"main": "lib/escape.js"
+}
