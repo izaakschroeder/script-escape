@@ -2,5 +2,12 @@
 	"name": "script-escape",
 	"version": "0.1.0",
 	"description": "Safely escape values for use in `<script>` tags.",
-	"main": "lib/escape.js"
+	"main": "lib/escape.js",
+	"scripts": {
+		"test": "./node_modules/.bin/_mocha -R spec test/spec"
+	},
+	"devDependencies": {
+		"chai": "^3.0.0",
+		"mocha": "^2.2.5"
+	}
 }
